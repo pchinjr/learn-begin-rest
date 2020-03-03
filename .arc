@@ -1,14 +1,12 @@
 @app
-learn-rest
+local-3fb
 
 @static
 folder public
 
 @http
-get /login  # create github oauth session
-get /logout # clear session
-
-# json api
+get /login
+get /logout
 get /todos
 post /todos
 put /todos/:key
